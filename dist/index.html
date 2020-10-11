@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+  <link href="/site.2bcc0084.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+  <script type="module" src="/dist.de44d8ea.js" defer=""></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="" defer=""></script>
+<script src="/site.2bcc0084.js"></script></head>
+<body>
+
+
+
+<div id="map"></div>
+
+<main class="main-container">
+
+  <div class="form" id="menu">
+    <input type="text" list="cities" placeholder="Search!!" name="search" id="input-text">
+    <button type="button" id="display-button">search</button>
+  </div>
+
+  <div class="location-and-date">
+    <h1 class="location-and-date__location"></h1>
+    <div></div>
+  </div>
+
+
+  <div class="current-temperature">
+    <div class="current-temperature__icon-container">
+      <img class="current-temperature__icon" alt="">
+    </div>
+    <div class="current-temperature__content-container">
+      <div class="current-temperature__value"></div>
+      <div class="current-temperature__summary"></div>
+    </div>
+  </div>
+
+
+  <div class="current-stats">
+    <div>
+      <div class="current-stats__value">23&deg;</div>
+      <div class="current-stats__label">High</div>
+      <div class="current-stats__value">14&deg;</div>
+      <div class="current-stats__label">Low</div>
+    </div>
+    <div>
+      <div class="current-stats__value">7mph</div>
+      <div class="current-stats__label">Wind</div>
+      <div class="current-stats__value">0%</div>
+      <div class="current-stats__label">Humidity</div>
+    </div>
+    <div>
+      <div class="current-stats__value">05:27</div>
+      <div class="current-stats__label">Sunrise</div>
+      <div class="current-stats__value">20:57</div>
+      <div class="current-stats__label">Sunset</div>
+    </div>
+  </div>
+
+  <div class="weather-by-hour">
+    <h2 class="weather-by-hour__heading">Today's weather</h2>
+    <div class="weather-by-hour__container">
+      
+    </div>
+  </div>
+
+
+  <div class="next-3-days">
+    <h2 class="next-3-days__heading">Next 3 days</h2>
+    <div class="next-3-days__container">
+    </div>
+  </div>
+
+
+</main>
+
+
+</body>
+</html>

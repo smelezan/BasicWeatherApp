@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+
+    "version": "draft",
+    "features": 
+        [
+            {
+                "type": "Feature",
+                "geometry": 
+                    {
+                        "type": "Point",
+                        "coordinates": [-0.599559, 44.816418]
+                    },
+                "properties": 
+                    {
+                        "label": "60 bis Impasse Vieille Tour 33400 Talence",
+                        "score": 0.9999991237936301,
+                        "housenumber": "60 bis",
+                        "id": "33522_2609_00060_bis",
+                        "type": "housenumber",
+                        "x": 415526.08,
+                        "y": 6419513.96,
+                        "importance": 0.5128420158738777,
+                        "name": "60 bis Impasse Vieille Tour",
+                        "postcode": "33400",
+                        "citycode": "33522",
+                        "city": "Talence",
+                        "context": "33,Gironde,Nouvelle-Aquitaine",
+                        "street": "Impasse Vieille Tour",
+                        "distance": 46
+                    }
+            }
+        ],
+    "attribution": "BAN",
+    "licence": "ETALAB-2.0",
+    "limit": 1
+}
